@@ -1,0 +1,190 @@
+
+/* Colors and fonts */
+
+body {
+font-family: Georgia;
+background-color: #eeeee4;
+color: black; 
+margin: 3rem;
+}
+
+h1 {
+font-family: Avenir, sans-serif;
+font-weight: bolder;
+font-size: 30px;
+color: #511705;
+}
+
+h2 {
+color: #873e23;
+}
+
+p {
+text-justify:  justify ;
+}
+
+a {
+color: #30a5c6;
+transition: color 0.2s ease;
+text-decoration: none ;
+font-weight: bold;
+}
+a:hover {
+color: #154c79 ;
+}
+
+
+/* Custom design with class */
+
+
+@media (min-width: 960px){
+	.container {
+	width: 700px;
+	margin: 40px auto;
+	}
+}
+
+@media (max-width: 700px){
+	.container {
+	width: 530px;
+	}
+}
+
+@media (max-width: 540px){
+	.container {
+	width: 400px;
+	}
+}
+
+@media (max-width: 350){
+	.container {
+	width: 250px;
+	}
+}
+
+.size-bigger {
+font-size: 200%;
+}
+
+
+
+.card-white:hover {
+  border-radius: 0% 0% 50% 50% / 0% 0% 5% 5% ;
+  box-shadow: 10px 10px rgba(0,0,0,.25);
+}
+.card-white {
+padding: 40px;
+margin: 40px auto;
+text-align: center;
+position: relative;
+  width: 500px;
+  background-color: white;
+  border-radius: 0% 0% 0% 0% / 0% 0% 0% 0% ;
+  box-shadow: 20px 20px rgba(0,0,0,.15);
+  transition: all .4s ease;
+}
+
+.card-white h2 {
+font-family: Arial;
+}
+
+.card-white h1 {
+font-family: Arial;
+}
+
+
+.btn-blue {
+background-color: #154c79;
+color: white;
+padding: 10px 15px;
+font-weight: bolder;
+border-radius: 4px;
+transition: all 0.7s ease;
+}
+
+.img-circle {
+border-radius: 50%;
+}
+
+#img-caption {
+font-weight: lighter;
+font-size: 13px;
+font-style: italic;
+font-family: Bradley Hand;
+}
+
+.btn-blue:hover {
+color: white;
+background-color: rgba(0, 0, 0, 0.8);
+border-radius: 12px;
+transition: all 0.7s ease;
+}
+
+.list-inline {
+list-style: none;
+padding-left: 0px;
+}
+.list-inline li {
+display: inline;
+padding: 2px;
+}
+.list-inline i {
+font-size: 50px;
+padding: 10px;
+color: rgba(0, 0, 0, 0.3);
+transition: all 0.3s ease;
+}
+.list-inline i:hover {
+font-size: 55px;
+padding: 0px;
+color: black;
+transition: all 0.3s ease;
+}
+
+.btn-space {
+margin-top: 30px;
+padding-inline-start: 0;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
